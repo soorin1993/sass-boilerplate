@@ -1,3 +1,74 @@
+.icons-sprite, .icons-candies, .icons-candle, .icons-candy, .icons-cat, .icons-ghost, .icons-hat, .icons-monster, .icons-moon, .icons-mummy, .icons-pumpkin, .icons-skull {
+  background-image: url('../img/icons-s72ef8626b3.png');
+  background-repeat: no-repeat;
+}
+
+.icons-candies {
+  background-position: 0 0;
+}
+
+.icons-candle {
+  background-position: 0 -400px;
+}
+
+.icons-candy {
+  background-position: 0 -800px;
+}
+
+.icons-cat {
+  background-position: 0 -1200px;
+}
+
+.icons-ghost {
+  background-position: 0 -1600px;
+}
+
+.icons-hat {
+  background-position: 0 -2000px;
+}
+
+.icons-monster {
+  background-position: 0 -2400px;
+}
+
+.icons-moon {
+  background-position: 0 -2800px;
+}
+
+.icons-mummy {
+  background-position: 0 -3200px;
+}
+
+.icons-pumpkin {
+  background-position: 0 -3600px;
+}
+
+.icons-skull {
+  background-position: 0 -4000px;
+}
+
+i {
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+li a {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+}
+li a span {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
