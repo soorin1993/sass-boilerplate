@@ -1,9 +1,114 @@
 @import 'icons/*.png';
 @include all-icons-sprites;
+@font-face {
+    font-family:"Griffin";
+    src: url("../fonts/Griffin.ttf") /* EOT file for IE */
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	top: 0;
+	margin: 0;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	/*background: repeating-linear-gradient(
+		135deg,
+		#101010,
+		#101010 20px,
+		#ff6e20 20px,
+		#ff6e20 40px
+	);*/
+	text-align: center;
+	background-color: #232323;
+}
+
+h1 {
+	padding: 10px 30px;
+	margin: 0 ;
+	background-color: #232323;
+	font-family: "Griffin", cursive;
+	font-size: 72px;
+	letter-spacing: 2px;
+	color: #ff7c16;
+}
+
+main {
+	font-family: 'Abhaya Libre', serif;
+	font-size: 20px;
+	text-align: center;
+}
+.divide {
+	width: 100%;
+	height: 80px;
+	background-color: #ff7c16; 
+	font-family: "Griffin", cursive;
+	font-size: 50px;
+	color: #232323;
+	line-height: 80px;
+}
+
+.container {
+	
+	width: 100%;
+	padding: 20px;
+	margin: 0;
+	
+}
+
+.content {
+	display: flex;
+	width: 700px;
+	align-items: center;
+	margin: 0 auto;
+}
+
+#origins1-container {
+	background-color: #9158B6;
+}
+#origins2-container {
+	background-color: #FFA944;
+}
+#origins3-container {
+	background-color: #FF9922;
+}
+
+#american1-container{
+	background-color: #9158B6;
+}
+#american2-container{
+	background-color: #754495;
+}
+#american3-container{
+	background-color: #FFA944;
+}
+
+#today-container{
+	background-color: #9158B6;
+}
+#superstition-container{
+	background-color: #FFA944;
+}
+
+.text {
+	width: 500px;
+	color: white;
+}
+
+
+.text p {
+	margin-bottom: 10px;
+}
+
+
 
 i {
-	height: 100px;
-	width: 100px;
+	height: 200px;
+	width: 200px;
+	margin: 30px;
 	display: inline-block;
 }
 
@@ -13,8 +118,8 @@ li {
 	padding: 10px;
 		a {
 		  display: inline-block;
-		  width: 100px;
-		  height: 100px;
+		  width: 200px;
+		  height: 200px;
 		  span {
 		  	position: absolute;
 		  	top: -9999em;
