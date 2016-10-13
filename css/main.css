@@ -1,70 +1,118 @@
 .icons-sprite, .icons-bag, .icons-bats, .icons-candle, .icons-candy, .icons-cat, .icons-ghost, .icons-hat, .icons-monster, .icons-moon, .icons-mummy, .icons-owl, .icons-pot, .icons-pumpkin, .icons-skull, .icons-spider, .icons-web {
-  background-image: url('../img/icons-s232518bca0.png');
+  background-image: url('../img/icons-sfb6ebb2368.png');
   background-repeat: no-repeat;
 }
 
 .icons-bag {
+  background-position: 0 -200px;
+}
+.icons-bag:hover, .icons-bag.bag-hover {
   background-position: 0 0;
 }
 
 .icons-bats {
-  background-position: 0 -200px;
+  background-position: 0 -600px;
 }
-
-.icons-candle {
+.icons-bats:hover, .icons-bats.bats-hover {
   background-position: 0 -400px;
 }
 
-.icons-candy {
-  background-position: 0 -600px;
+.icons-candle {
+  background-position: 0 -1000px;
 }
-
-.icons-cat {
+.icons-candle:hover, .icons-candle.candle-hover {
   background-position: 0 -800px;
 }
 
-.icons-ghost {
-  background-position: 0 -1000px;
+.icons-candy {
+  background-position: 0 -1400px;
 }
-
-.icons-hat {
+.icons-candy:hover, .icons-candy.candy-hover {
   background-position: 0 -1200px;
 }
 
-.icons-monster {
-  background-position: 0 -1400px;
+.icons-cat {
+  background-position: 0 -1800px;
 }
-
-.icons-moon {
+.icons-cat:hover, .icons-cat.cat-hover {
   background-position: 0 -1600px;
 }
 
-.icons-mummy {
-  background-position: 0 -1800px;
+.icons-ghost {
+  background-position: 0 -2200px;
 }
-
-.icons-owl {
+.icons-ghost:hover, .icons-ghost.ghost-hover {
   background-position: 0 -2000px;
 }
 
-.icons-pot {
-  background-position: 0 -2200px;
+.icons-hat {
+  background-position: 0 -2600px;
 }
-
-.icons-pumpkin {
+.icons-hat:hover, .icons-hat.hat-hover {
   background-position: 0 -2400px;
 }
 
-.icons-skull {
-  background-position: 0 -2600px;
+.icons-monster {
+  background-position: 0 -3000px;
 }
-
-.icons-spider {
+.icons-monster:hover, .icons-monster.monster-hover {
   background-position: 0 -2800px;
 }
 
+.icons-moon {
+  background-position: 0 -3400px;
+}
+.icons-moon:hover, .icons-moon.moon-hover {
+  background-position: 0 -3200px;
+}
+
+.icons-mummy {
+  background-position: 0 -3800px;
+}
+.icons-mummy:hover, .icons-mummy.mummy-hover {
+  background-position: 0 -3600px;
+}
+
+.icons-owl {
+  background-position: 0 -4200px;
+}
+.icons-owl:hover, .icons-owl.owl-hover {
+  background-position: 0 -4000px;
+}
+
+.icons-pot {
+  background-position: 0 -4600px;
+}
+.icons-pot:hover, .icons-pot.pot-hover {
+  background-position: 0 -4400px;
+}
+
+.icons-pumpkin {
+  background-position: 0 -5000px;
+}
+.icons-pumpkin:hover, .icons-pumpkin.pumpkin-hover {
+  background-position: 0 -4800px;
+}
+
+.icons-skull {
+  background-position: 0 -5400px;
+}
+.icons-skull:hover, .icons-skull.skull-hover {
+  background-position: 0 -5200px;
+}
+
+.icons-spider {
+  background-position: 0 -5800px;
+}
+.icons-spider:hover, .icons-spider.spider-hover {
+  background-position: 0 -5600px;
+}
+
 .icons-web {
-  background-position: 0 -3000px;
+  background-position: 0 -6200px;
+}
+.icons-web:hover, .icons-web.web-hover {
+  background-position: 0 -6000px;
 }
 
 @font-face {
@@ -98,6 +146,16 @@ h1 {
   background-color: #232323;
   font-family: "Griffin", cursive;
   font-size: 72px;
+  letter-spacing: 2px;
+  color: #ff7c16;
+}
+
+h3 {
+  padding: 10px 30px;
+  margin: 0;
+  background-color: #232323;
+  font-family: "Griffin", cursive;
+  font-size: 50px;
   letter-spacing: 2px;
   color: #ff7c16;
 }
@@ -170,6 +228,14 @@ main {
 
 .text p {
   margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: #ff7c16;
 }
 
 i {
